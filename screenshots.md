@@ -1,7 +1,8 @@
 Github URL :--   
 # https://github.com/VikramSrinivasan08/Capstone1.git
 
-Deployed Site URL: 13.201.130.248:80
+Deployed Site URL: 
+# http://13.201.130.248:80
 
 Docker Images Names:
 
