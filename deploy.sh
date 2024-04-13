@@ -15,7 +15,7 @@ echo "Value=$GIT_BRANCH"
 if [[ $GIT_BRANCH == "origin/master" ]]; then
 docker tag capstoneimg vikramsrinivasan08/prod:v1
 docker push vikramsrinivasan08/prod:v1
-elif [[ $GIT_BRANCH == "origin/dev" ]]; then
+if [[ $GIT_BRANCH == "origin/dev" ]]; then
 docker tag capstoneimg vikramsrinivasan08/dev:v2
 docker push vikramsrinivasan08/dev:v2
 fi
